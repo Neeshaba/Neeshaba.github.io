@@ -1,26 +1,19 @@
 # Portfolio Website
 
-A static portfolio website presenting selected university projects, technical skills, study interests, and contact links.
+A static portfolio presenting university projects, technical skills, and contact links.
 
 ## Structure
 
-- `index.html`: page content, inline CSS, navigation, and project descriptions.
-- `assets/`: project imagery referenced by the page.
+`index.html` contains the page content and responsive CSS. `assets/` holds the project imagery. No build step or package installation is required.
 
-## Page sections
+## Projects
 
-The page contains project cards for SafePaws Rescue, BigRig Movers, and a buffer-overflow security lab, followed by skills, about, and contact sections. It uses a responsive grid, anchor navigation, and images loaded on demand.
+- [SafePaws Rescue](https://github.com/Neeshaba/safepaws-rescue-portfolio): collaborative PHP/MySQL animal rehoming application.
+- [BigRig Movers](https://github.com/Neeshaba/bigrig-movers-portfolio): Oracle SQL and JSON database project.
+- [Security Testing Lab](https://github.com/Neeshaba/security-testing-portfolio): controlled memory-safety and security lab.
+
+Public repositories contain project overviews. Complete assessment files and group source are kept private. Project descriptions preserve the distinction between individual and collaborative work.
 
 ## Preview
 
-Serve the repository with a local static web server and open `index.html`. No package manifest or build step is present in the inspected root.
-
-## Content and verification
-
-Project descriptions should distinguish individual contributions from group work and template or third-party components. Screenshots and code excerpts should be published only with the appropriate approval.
-
-The BigRig source currently verifies Oracle SQL and JSON generation; no MongoDB implementation is included in that repository. SafePaws and security-lab descriptions have not been checked against their project sources in this review.
-
-The security project's second image link currently targets a BigRig schema image instead of its security graphic. That link should be corrected before publication of an updated page.
-
-This README describes the inspected source; it does not claim a completed accessibility audit or browser testing.
+Serve the repository with a static web server, or visit the GitHub Pages portfolio. The security illustration link and BigRig technology description have been corrected.
